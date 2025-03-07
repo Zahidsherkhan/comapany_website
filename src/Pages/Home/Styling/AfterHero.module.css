@@ -1,0 +1,237 @@
+.AfterHeroParent {
+  padding: 10% 17%;
+}
+
+.servicesMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.servicesEachOne {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  border: 1px solid gray;
+  width: 12vw;
+  height: 19vh;
+  padding-top: 7vh;
+  gap: 0.5rem;
+}
+
+.icons {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0% auto;
+  margin-bottom: 17px;
+  color: #004ffe;
+}
+
+.servicesTagline {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.seeAllServiceParent {
+  margin: 4% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.generalTagline1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 12px;
+  border-bottom-width: 10%;
+}
+
+.arrowTag {
+  width: 22px;
+  height: 22px;
+  border-bottom: 1ps solid grey;
+  border-radius: 25px;
+  background-color: #004ffe;
+  color: #ffdb3f;
+  font-weight: bold;
+}
+
+.secondTagline {
+  margin: 0% auto;
+  font-size: 1.5rem;
+  color: #004ffe;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.taglineDrift {
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+}
+
+.additionalObjectParent {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.additionalObjectEachOne {
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0.6rem;
+  justify-content: center;
+  width: 14vw;
+  height: 37vh;
+  margin-bottom: 12vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.additionalObjectTagline1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.additionalObjectTagline2 {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+.additionalObjectIconDIV {
+  width: 3.1rem;
+  height: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0% auto;
+}
+.icons2 {
+  width: 3.1rem;
+  height: 3.1rem;
+  margin: 0% auto;
+  color: #004ffe;
+}
+
+.SecondBigTagline {
+  color: #004ffe;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0% auto;
+  margin-bottom: 7%;
+}
+
+.parentHow {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  align-items: stretch;
+  /* padding: 20px 0px; */
+  /* background-color: #ffdb3f; */
+  gap: 3vw;
+  /* justify-content: space-between; */
+}
+.howImages {
+  display: grid;
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  grid-template-rows: repeat(5, 1fr); /* 4 equal rows */
+  gap: 10px; /* Add spacing between images */
+}
+.minorTag {
+  font-size: 0.8rem;
+}
+.imageset1 {
+  grid-column: 1/3;
+  object-fit: cover;
+  grid-row: 1/4;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /* background-color: #004ffe; */
+}
+.imageset2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  grid-column: 3/5;
+  grid-row: 1/6;
+  /* background-color: #004ffe; */
+}
+.imageset3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  grid-column: 1/3;
+  grid-row: 4/6;
+  /* background-color: #004ffe; */
+}
+
+.howTaglines {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #004ffe;
+  margin-bottom: 3px;
+}
+.howDivsParent {
+  width: 50%;
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+.howDivs {
+  /* width: 50vw; */
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-bottom: 25px;
+}
+.minorTag {
+  margin-bottom: 4px;
+  line-height: 0.8rem;
+  /* display: inline; */
+}
+.placeOrderParent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btnLine {
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+.contactUsParent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+  background-color: #ffdb3f;
+  padding: 20px 30px;
+  border-radius: 7px;
+  margin-bottom: 8%;
+}
+.contactUsINFO {
+  width: 70%;
+}
+.contactUsBTN {
+  padding: 4px 8px;
+  border-style: none;
+  background-color: #004ffe;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+.SecondBigTaglineDIV {
+  text-align: center;
+}
