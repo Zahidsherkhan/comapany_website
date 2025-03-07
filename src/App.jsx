@@ -5,6 +5,7 @@ import Become_a_Partner from "./Pages/Become A Partner/Become_a_Partner";
 import Contact_us from "./Pages/Contact Us/Contact_us";
 import Get_a_Quote from "./Pages/Get a Quote/Get_a_Quote";
 import Header from "./Pages/Home/components/Header";
+import Footer from "./Pages/Home/components/Footer";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const Router = createBrowserRouter([
       <div>
         <Header></Header>
         <Categories></Categories>
+        <Footer></Footer>
       </div>
     ),
   },
@@ -26,6 +28,7 @@ const Router = createBrowserRouter([
       <div>
         <Header></Header>
         <Become_a_Partner></Become_a_Partner>
+        <Footer></Footer>
       </div>
     ),
   },
@@ -35,6 +38,7 @@ const Router = createBrowserRouter([
       <div>
         <Header></Header>
         <Contact_us></Contact_us>
+        <Footer></Footer>
       </div>
     ),
   },
@@ -44,6 +48,7 @@ const Router = createBrowserRouter([
       <div>
         <Header></Header>
         <Get_a_Quote></Get_a_Quote>
+        <Footer></Footer>
       </div>
     ),
   },

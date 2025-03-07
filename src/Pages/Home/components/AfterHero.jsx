@@ -163,7 +163,7 @@ const AfterHero = () => {
         </div>
         <button className={styling.contactUsBTN}>Become Our Partner</button>
       </div>
-      {/* <FAQ></FAQ> */}
+      <FAQ></FAQ>
     </div>
   );
 };

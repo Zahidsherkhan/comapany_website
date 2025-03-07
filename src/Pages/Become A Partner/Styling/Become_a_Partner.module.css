@@ -58,3 +58,25 @@ strong {
 .btn:hover {
   background-color: #0056b3;
 }
+
+.banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.heading1 {
+  position: absolute;
+  top: 30vh;
+  color: white;
+  font-size: 42px;
+}
+.people_working {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.titles {
+  background-color: #f6f4ff;
+}
