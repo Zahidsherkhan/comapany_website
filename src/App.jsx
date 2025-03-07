@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Pages/Home/Home";
-import Categories from "./Pages/Categories/Categories";
+import Services from "./Pages/Services/Services";
 import Become_a_Partner from "./Pages/Become A Partner/Become_a_Partner";
 import Contact_us from "./Pages/Contact Us/Contact_us";
 import Get_a_Quote from "./Pages/Get a Quote/Get_a_Quote";
@@ -13,11 +13,11 @@ const Router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/Categories",
+    path: "/Services",
     element: (
       <div>
         <Header></Header>
-        <Categories></Categories>
+        <Services></Services>
         <Footer></Footer>
       </div>
     ),
