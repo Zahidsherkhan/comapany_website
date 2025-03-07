@@ -6,6 +6,7 @@ import Contact_us from "./Pages/Contact Us/Contact_us";
 import Get_a_Quote from "./Pages/Get a Quote/Get_a_Quote";
 import Header from "./Pages/Home/components/Header";
 import Footer from "./Pages/Home/components/Footer";
+import AdminLogin from "./Pages/Admin/AdminLogin";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Router = createBrowserRouter([
   {
@@ -48,6 +49,16 @@ const Router = createBrowserRouter([
       <div>
         <Header></Header>
         <Get_a_Quote></Get_a_Quote>
+        <Footer></Footer>
+      </div>
+    ),
+  },
+  {
+    path: "/adminlogin",
+    element: (
+      <div>
+        <Header></Header>
+        <AdminLogin></AdminLogin>
         <Footer></Footer>
       </div>
     ),

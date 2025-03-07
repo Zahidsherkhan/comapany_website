@@ -221,17 +221,23 @@
   padding: 20px 30px;
   border-radius: 7px;
   margin-bottom: 8%;
+  align-items: center;
 }
 .contactUsINFO {
   width: 70%;
 }
 .contactUsBTN {
-  padding: 4px 8px;
+  padding: 6px 8px;
   border-style: none;
   background-color: #004ffe;
   border-radius: 4px;
   color: whitesmoke;
+  text-decoration: none;
 }
 .SecondBigTaglineDIV {
   text-align: center;
+}
+.contactUsBTN:hover {
+  background-color: #2a6dff;
+  color: white;
 }

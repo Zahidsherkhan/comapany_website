@@ -174,10 +174,12 @@
   padding: 12px 30px;
   border-radius: 8px;
   border: none;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .ctaButton:hover {
   background-color: #1d4ed8;
+  text-decoration: none;
 }

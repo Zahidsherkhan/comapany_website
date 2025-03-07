@@ -12,6 +12,7 @@ import styling from "../Styling/AfterHero.module.css";
 import img1 from "../assets/AfterHero/img1.jpg";
 import img2 from "../assets/AfterHero/img2.jpg";
 import img3 from "../assets/AfterHero/img3.jpg";
+import { Link } from "react-router-dom";
 import FAQ from "../components/subComponents/AfterHero_SUBS/FAQ";
 const AfterHero = () => {
   const services = [
@@ -161,7 +162,9 @@ const AfterHero = () => {
           <p>Contact us as your extended Team</p>
           <p>We will be happy to assist you at every step.</p>
         </div>
-        <button className={styling.contactUsBTN}>Become Our Partner</button>
+        <Link to="./Contact_us" className={styling.contactUsBTN}>
+          Become Our Partner
+        </Link>
       </div>
       <FAQ></FAQ>
     </div>
