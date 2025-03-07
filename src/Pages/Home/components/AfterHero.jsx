@@ -57,12 +57,7 @@ const AfterHero = () => {
     {
       title: "Bring Ideas to Reality",
       description:
-        "We take your concepts and turn them into actionable designs. Whether it's branding, UI/UX, or marketing materials, we've got you covered.",
-    },
-    {
-      title: "Transform Your Brand",
-      description:
-        "Elevate your brand identity with our expert design solutions. From logos to full-scale branding, we craft visuals that leave a lasting impression.",
+        "We take your concepts and turn them into actionable designs. Whether it's branding, UI/UX, or marketing materials, we've got you covered. We make sure our customer is satisfied 100% and for that we have very professional teams",
     },
   ];
 

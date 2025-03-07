@@ -194,7 +194,6 @@
   max-width: 50%;
 }
 .howDivs {
-  /* width: 50vw; */
   margin-right: 0%;
   padding-right: 0%;
   margin-bottom: 25px;
@@ -202,7 +201,6 @@
 .minorTag {
   margin-bottom: 4px;
   line-height: 0.8rem;
-  /* display: inline; */
 }
 .placeOrderParent {
   display: flex;
