@@ -1,5 +1,5 @@
 .AfterHeroParent {
-  padding: 10% 17%;
+  padding: 10% 10%;
 }
 
 .servicesMain {
@@ -7,7 +7,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
+  margin-top: 4rem;
 }
 
 .servicesEachOne {
@@ -16,105 +17,97 @@
   border-radius: 3px;
   border: 1px solid gray;
   width: 12vw;
-  height: 19vh;
-  padding-top: 7vh;
+  height: 20vh;
+  padding: 2vh;
   gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .icons {
-  width: 2.1rem;
-  height: 2.1rem;
-  margin: 0% auto;
-  margin-bottom: 17px;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 15px;
   color: #004ffe;
 }
 
 .servicesTagline {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-align: center;
 }
+
 .seeAllServiceParent {
   margin: 4% auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 8px;
 }
+
 .generalTagline1 {
   text-align: center;
   text-decoration: underline;
-  font-size: 12px;
-  border-bottom-width: 10%;
+  font-size: 14px;
 }
 
 .arrowTag {
-  width: 22px;
-  height: 22px;
-  border-bottom: 1ps solid grey;
-  border-radius: 25px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
   background-color: #004ffe;
   color: #ffdb3f;
   font-weight: bold;
 }
 
 .secondTagline {
-  margin: 0% auto;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #004ffe;
   font-weight: bold;
-  align-items: center;
   text-align: center;
-  align-self: center;
-  justify-content: center;
-  margin-top: 0%;
   margin-bottom: 5%;
 }
 
 .taglineDrift {
-  margin: 0% auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .additionalObjectParent {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10rem;
 }
+
 .additionalObjectEachOne {
   border-radius: 3px;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  padding: 0.6rem;
+  padding: 1rem;
   justify-content: center;
-  width: 14vw;
-  height: 37vh;
-  margin-bottom: 12vh;
+  width: 16vw;
+  height: 40vh;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
+
+.additionalObjectTagline1,
+.additionalObjectTagline2 {
+  text-align: center;
+  margin-top: 5px;
 }
 
 .additionalObjectTagline1 {
-  text-align: center;
   font-weight: bold;
-  margin-top: 2px;
 }
 
 .additionalObjectTagline2 {
-  text-align: center;
-  font-size: 0.8rem;
-  margin-top: 2px;
-}
-
-.additionalObjectIconDIV {
-  width: 3.1rem;
-  height: 3.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0% auto;
+  font-size: 0.7rem;
 }
 .icons2 {
   width: 3.1rem;
@@ -126,8 +119,7 @@
 .SecondBigTagline {
   color: #004ffe;
   font-weight: bold;
-  font-size: 2rem;
-  margin: 0% auto;
+  font-size: 2.2rem;
   margin-bottom: 7%;
 }
 
@@ -192,6 +184,7 @@
   width: 50%;
   min-width: 50%;
   max-width: 50%;
+  margin-bottom: 100% !important;
 }
 .howDivs {
   margin-right: 0%;
@@ -238,4 +231,103 @@
 .contactUsBTN:hover {
   background-color: #2a6dff;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .servicesEachOne,
+  .additionalObjectEachOne {
+    width: 30vw;
+    height: auto;
+  }
+  .howDivsParent {
+    text-align: center;
+    height: 140% !important;
+  }
+  .howImages {
+    height: 140%;
+  }
+  .contactUsParent {
+    margin-top: 13rem;
+  }
+  .parentHow {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .AfterHeroParent {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .additionalObjectParent {
+    gap: 6rem;
+  }
+
+  .parentHow {
+    max-width: 90%;
+  }
+  .secondTagline {
+    font-size: 1.6rem;
+    max-width: 80%;
+    padding-top: 22%;
+    padding-bottom: 12%;
+  }
+  .additionalObjectEachOne {
+    width: 60vw;
+    height: 40vh;
+  }
+
+  .servicesEachOne {
+    width: 50vw;
+    height: 30vh;
+  }
+  .minorTag {
+    max-width: 40vw;
+  }
+  .howTaglines {
+    max-width: 40vw;
+  }
+  .howContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .howImages {
+    width: 100%;
+  }
+  .howDivs {
+    max-width: 90%;
+  }
+
+  .howDivsParent {
+    max-width: 10% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 537px) {
+  .howDivsParent {
+    text-align: center;
+    height: 140% !important;
+  }
+  .howImages {
+    height: 210%;
+  }
+  .contactUsParent {
+    margin-top: 26rem;
+  }
+  .parentHow {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .contactUsParent {
+    margin-top: 38rem;
+  }
+  .howImages {
+    height: 250%;
+  }
 }
