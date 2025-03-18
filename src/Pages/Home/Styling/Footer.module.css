@@ -164,14 +164,17 @@
 @media (max-width: 769px) {
   .containersIcons {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
+    width: 8rem;
     gap: 1rem;
+    margin: auto;
+    /* background-color: black; */
   }
 
   .SocialICONS {
-    width: 1.4rem !important;
-    height: 2rem !important;
+    width: 8rem !important;
+    height: 8rem !important;
     margin-bottom: 0.7rem;
-    gap: 1rem;
+    /* gap: 1rem; */
   }
 }

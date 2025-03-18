@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       {/* Logo */}
-      <div>
+      <div className={styles.clogo}>
         <NavLink to="/" onClick={() => setMenuOpen(false)}>
           <img srcSet={logo} alt="LOGO" className={styles.logo} />
         </NavLink>
