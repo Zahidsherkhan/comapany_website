@@ -25,7 +25,7 @@
 }
 @media (max-width: 803px) {
   .heroHeading {
-    font-size: 32px;
+    font-size: 38px;
     padding-top: 10%;
     display: flex;
     text-align: center;
@@ -60,7 +60,7 @@
 
 @media (max-width: 460px) {
   .heroHeading {
-    font-size: 22px;
+    font-size: 30px;
     padding-top: 10%;
     display: flex;
     text-align: center;
@@ -96,7 +96,7 @@
 
 @media (max-width: 768px) {
   .heroHeading {
-    font-size: 22px;
+    font-size: 32px;
     padding-top: 10%;
     display: flex;
     text-align: center;
