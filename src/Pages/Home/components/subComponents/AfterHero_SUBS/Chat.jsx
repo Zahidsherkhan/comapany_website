@@ -13,16 +13,30 @@ const Chat = () => {
         <p className={styling.question}>
           Cheers! Thank You for Choosing Our Services. How can we help you?
         </p>
-        <input className={styling.input} type="text" placeholder="Name" />
-        <input className={styling.input} type="text" placeholder="Email" />
-        <input
-          className={styling.input}
-          type="text"
-          placeholder="Write Your Message"
-        />
-        <button className={styling.sendBtn}>
-          <MdSend />
-        </button>
+
+        <form action="submit">
+          <input
+            className={styling.input}
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            className={styling.input}
+            type="text"
+            placeholder="Email"
+            required
+          />
+          <input
+            className={styling.input}
+            type="text"
+            placeholder="Write Your Message"
+            required
+          />
+          <button className={styling.sendBtn}>
+            <MdSend />
+          </button>
+        </form>
       </div>
     </>
   );

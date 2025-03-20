@@ -6,12 +6,17 @@ import Contact_us from "./Pages/Contact Us/Contact_us";
 import Get_a_Quote from "./Pages/Get a Quote/Get_a_Quote";
 import Header from "./Pages/Home/components/Header";
 import Footer from "./Pages/Home/components/Footer";
+import ChatUI from "./Pages/ChatUI/ChatUI";
 import AdminLogin from "./Pages/Admin/AdminLogin";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+  },
+  {
+    path: "/Chat",
+    element: <ChatUI></ChatUI>,
   },
   {
     path: "/Services",
