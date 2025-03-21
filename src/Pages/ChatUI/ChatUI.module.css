@@ -211,6 +211,30 @@
   border-radius: 4px;
   cursor: pointer;
 }
+@media screen and (max-width: 970px) {
+  .chatUiChatFooter {
+    width: auto;
+  }
+  .footerLeft {
+    width: auto;
+    margin: 0px 10px;
+  }
+  .footerRight {
+    margin: 10px;
+    width: auto;
+  }
+
+  .chatUiParent {
+    width: 96%;
+    /* border: 2px solid rgb(95, 87, 212); */
+    height: 96vh;
+    border: none;
+    margin: 10px 0px 0px 20px;
+    padding: 0px;
+    display: flex;
+  }
+}
+
 .sendBtnDiv {
   /* margin-right: 20px; */
 }
