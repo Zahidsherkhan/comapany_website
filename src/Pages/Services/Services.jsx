@@ -7,9 +7,17 @@ import {
   FaRobot,
   FaCloudUploadAlt,
 } from "react-icons/fa";
+import { RiDashboardHorizontalLine } from "react-icons/ri";
 import styles from "./Styling/Services.module.css";
 import banner from "./banner.jpg";
 import { Link } from "react-router-dom";
+import { GrIntegration } from "react-icons/gr";
+import { AiOutlineSolution } from "react-icons/ai";
+import { TbTransitionRight } from "react-icons/tb";
+import { RiFunctionAddLine } from "react-icons/ri";
+import { CgWebsite } from "react-icons/cg";
+import { SiInductiveautomation } from "react-icons/si";
+import { MdOutlineWeb } from "react-icons/md";
 const ServiceCard = ({ icon, title, description }) => {
   return (
     <div className={styles.serviceCard}>
@@ -24,39 +32,59 @@ const Services = () => {
   const servicesList = [
     {
       icon: <FaLaptopCode />,
+      title: "GHL Account Setup",
+      description:
+        "Maximize your business potential with our expertly tailored GoHighLevel account setup. Designed to optimize your operations and drive sustainable growth, enhance efficiency and elevates customer engagement. Take the next step toward success!",
+    },
+    {
+      icon: <RiDashboardHorizontalLine />,
+      title: "Custom GHL Dashboards",
+      description:
+        "Take your decision-making to the next level with our tailored GoHighLevel dashboards. Get real-time insights, in-depth analytics, and a data-driven approach to optimize your business performance. Empower your strategy with the right information at your fingertips!",
+    },
+    {
+      icon: <GrIntegration />,
+      title: "3rd-Party Integrations",
+      description:
+        "Enhance your business with powerful third-party integrations, streamlining operations and boosting efficiency. From automation to CRM systems, we ensure hassle-free connections to optimize your workflow!",
+    },
+    {
+      icon: <AiOutlineSolution />,
+      title: "Powerful SAAS",
+      description:
+        "Streamline your operations and scale effortlessly with our cutting-edge SaaS solutions, tailored to enhance efficiency, automate workflows, and drive sustainable growth. Let’s optimize your business for success and unlock new opportunities!",
+    },
+    {
+      icon: <TbTransitionRight />,
+      title: "Smooth Transition to GHL",
+      description:
+        "Move to GoHighLevel seamlessly with our expert migration services. We handle the entire process efficiently, ensuring minimal disruption while enhancing automation, workflows, and customer interactions. Upgrade with ease and take your business to the next level!",
+    },
+    {
+      icon: <MdOutlineWeb />,
       title: "Web Application Development",
       description:
         "Custom, responsive web applications built with modern frameworks like React, Angular, and Vue.js. From simple websites to complex enterprise solutions, we deliver scalable and secure web experiences.",
     },
+
     {
-      icon: <FaMobileAlt />,
-      title: "Mobile App Development",
+      icon: <RiFunctionAddLine />,
+      title: "Tailored GHL Add-Ons",
       description:
-        "Native and cross-platform mobile applications for iOS and Android. Using technologies like React Native and Flutter, we create engaging mobile experiences that perform flawlessly across devices.",
+        "Unlock new capabilities with our custom GoHighLevel add-ons, designed to seamlessly integrate with your platform. Enhance functionality, automate tasks, and optimize your workflow to match your business needs perfectly.",
+    },
+
+    {
+      icon: <SiInductiveautomation />,
+      title: "Intelligent GHL Automation",
+      description:
+        "Transform the way you work with our advanced GHL automation solutions. From streamlining processes to increasing efficiency, we help you eliminate manual tasks and focus on what truly matters-growing your business.",
     },
     {
-      icon: <FaServer />,
-      title: "Backend Development",
+      icon: <CgWebsite />,
+      title: "Funnels & Engaging Websites",
       description:
-        "Robust server-side solutions using Node.js, Python, Java, and .NET. We design and implement APIs, databases, and microservices architectures that power your applications with reliability and performance.",
-    },
-    {
-      icon: <FaShoppingCart />,
-      title: "E-commerce Solutions",
-      description:
-        "Full-featured online stores with secure payment processing, inventory management, and customer relationship tools. We build custom e-commerce platforms or integrate with Shopify, WooCommerce, and more.",
-    },
-    {
-      icon: <FaRobot />,
-      title: "AI & Machine Learning Integration",
-      description:
-        "Intelligent solutions that leverage the latest in artificial intelligence and machine learning. From chatbots and recommendation engines to data analysis and predictive models.",
-    },
-    {
-      icon: <FaCloudUploadAlt />,
-      title: "Cloud Services & DevOps",
-      description:
-        "Cloud infrastructure setup, deployment automation, and continuous integration. We help you leverage AWS, Azure, or Google Cloud to optimize performance and minimize costs.",
+        "Bring your vision to life with our expertly crafted GoHighLevel funnels and websites. Designed to maximize conversions and enhance your brand presence, our solutions ensure a seamless and compelling user experience. Let’s build something exceptional together!",
     },
   ];
 
