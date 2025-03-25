@@ -18,23 +18,33 @@ const AfterHero = () => {
   const services = [
     {
       component: <FaMobileScreen className={styling.icons} />,
-      tag: "Custom Development",
+      tag: "GHL Account Setup",
+      des: "Maximize your business potential with our expertly tailored GoHighLevel account setup. Designed to optimize your operations and drive sustainable growth, enhance efficiency and elevates customer engagement. Take the next step toward success!",
     },
     {
       component: <SiGoogleearthengine className={styling.icons} />,
-      tag: "App Development",
+      tag: "Custom GHL Dashboards",
+      des: "Take your decision-making to the next level with our tailored GoHighLevel dashboards. Get real-time insights, in-depth analytics, and a data-driven approach to optimize your business performance. Empower your strategy with the right information at your fingertips!",
     },
     {
       component: <MdLaptopMac className={styling.icons} />,
-      tag: "Web Development",
+      tag: "High-Performance Funnels & Websites",
+      des: "Turn your vision into a compelling online experience with expertly designed GHL funnels and websites. Boost engagement, increase conversions, and establish a strong digital presence effortlessly.",
     },
     {
       component: <AiOutlineAudit className={styling.icons} />,
-      tag: "Quality Audit",
+      tag: "3rd-Party Integrations",
+      des: "Enhance your business with powerful third-party integrations, streamlining operations and boosting efficiency. From automation to CRM systems, we ensure hassle-free connections to optimize your workflow!",
     },
     {
       component: <GrVmMaintenance className={styling.icons} />,
-      tag: "Mainatance And Support",
+      tag: "Powerful SAAS",
+      des: "Streamline operations and scale effortlessly with our innovative SaaS solutions, designed to boost efficiency and drive growth. Let’s take your business to the next level!",
+    },
+    {
+      component: <GrVmMaintenance className={styling.icons} />,
+      tag: "Web Development",
+      des: "Transform your ideas into high-performing dynamic websites with cutting-edge features, seamless functionality, eye catching and a user-friendly experience designed to engage and convert visitors.",
     },
   ];
 
@@ -96,6 +106,7 @@ const AfterHero = () => {
           <div className={styling.servicesEachOne} key={index}>
             {componentObject.component}
             <p className={styling.servicesTagline}>{componentObject.tag}</p>
+            <div className={styling.servicesDes}>{componentObject.des}</div>
           </div>
         ))}
       </div>

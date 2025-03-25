@@ -3,23 +3,27 @@
 }
 
 .servicesMain {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: 4rem;
+}
+.servicesDes {
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .servicesEachOne {
   display: flex;
   flex-direction: column;
   border-radius: 3px;
-  border: 1px solid gray;
-  width: 12vw;
-  height: 20vh;
+  border: 0.1px solid rgb(205, 204, 204);
+  width: 18rem;
+  height: 18rem;
   padding: 2vh;
-  gap: 0.5rem;
+  gap: 4px;
   align-items: center;
   justify-content: center;
 }
@@ -32,9 +36,11 @@
 }
 
 .servicesTagline {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 1rem;
+  color: black;
 }
 
 .seeAllServiceParent {
@@ -247,6 +253,12 @@
   .howImages {
     height: 100%;
   }
+  .servicesMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -274,7 +286,7 @@
   }
 
   .servicesEachOne {
-    width: 50vw;
+    width: 40vw;
     height: auto;
   }
   .minorTag {
@@ -307,6 +319,15 @@
   }
   .howImages {
     height: 100%;
+  }
+  .servicesMain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .servicesEachOne {
+    width: 60vw;
   }
 }
 
