@@ -44,14 +44,14 @@ const faqData = [
       "No worries! We can refine the designs based on your feedback or offer additional concepts to better match your vision. Our designers are committed to ensuring your satisfaction, and we provide multiple revision rounds to get the design just right. If needed, we can explore alternative styles, colors, and layouts to better suit your preferences.",
   },
   {
-    question: "Are the designs I receive exclusive to me?",
+    question: "Do you offer ongoing support and maintenance?",
     answer:
-      "Yes, all final approved designs are exclusive to you and will not be shared or reused. We respect the uniqueness of every project and ensure that the work delivered remains yours. Our designers create custom-tailored solutions that are aligned with your brand identity, so you can confidently use them without concerns about duplication.",
+      "Yes! We provide ongoing support and maintenance to ensure your system remains secure, up to date, and fully functional. Whether it’s bug fixes, performance optimizations, feature enhancements, or security updates, our team is here to help. Our goal is to ensure your digital assets continue to deliver value without disruptions.",
   },
   {
-    question: "What if I need further assistance or have additional questions?",
+    question: "What makes your services different from others?",
     answer:
-      "Our support team is always available to assist you with any questions or concerns. Whether you need guidance on design selection, require help with revisions, or have any other queries, we are here to help. You can reach out to us via email, chat, or phone, and we will respond promptly to ensure a smooth and hassle-free experience.",
+      "we build lasting relationships. Our team provides ongoing support, training, and maintenance to ensure you get the most out of your investment. Your success is our success, and we go the extra mile to help you achieve it. Our services are fully customized to align with your specific business goals, brand identity, and user experience needs. Whether it's web development, SaaS, or integrations, we craft solutions tailored just for you.",
   },
 ];
 
