@@ -39,14 +39,14 @@ const faqData = [
       "The turnaround time depends on the project, but typically, initial submissions are delivered within a few days. More complex projects may take a bit longer, as we ensure each design is carefully crafted to meet your requirements. We prioritize efficiency while maintaining high-quality standards. If you have urgent requests, let us know, and we will do our best to accommodate your timeline.",
   },
   {
-    question: "What if I don’t like any of the submitted designs?",
+    question: "How can custom GoHighLevel dashboards benefit my business?",
     answer:
-      "No worries! We can refine the designs based on your feedback or offer additional concepts to better match your vision. Our designers are committed to ensuring your satisfaction, and we provide multiple revision rounds to get the design just right. If needed, we can explore alternative styles, colors, and layouts to better suit your preferences.",
+      "Our GHL dashboards provide real-time insights and in-depth analytics, allowing you to track key metrics, monitor performance, and make informed decisions. With a user-friendly interface and customizable features, you can optimize workflows, improve efficiency, and drive consistent business growth.",
   },
   {
-    question: "Do you offer ongoing support and maintenance?",
+    question: "What sets your funnels, web design, and integrations apart?",
     answer:
-      "Yes! We provide ongoing support and maintenance to ensure your system remains secure, up to date, and fully functional. Whether it’s bug fixes, performance optimizations, feature enhancements, or security updates, our team is here to help. Our goal is to ensure your digital assets continue to deliver value without disruptions.",
+      "We specialize in creating high-converting funnels, visually engaging websites, and seamless third-party integrations tailored to your brand’s needs. Our approach focuses on user experience, automation, and performance-driven design to ensure your business operates efficiently while maximizing engagement and conversions.",
   },
   {
     question: "What makes your services different from others?",
